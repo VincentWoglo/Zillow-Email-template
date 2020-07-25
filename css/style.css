@@ -85,61 +85,70 @@ main{
     cursor: pointer;
 }
 /*popular homes*/
-.popular-homes-tile{
+.popular-homes-title{
     text-align: center;
-    font-size: 1.15rem;
-    margin-bottom: .5em;
+    font-size: 1.29rem;
+    margin-bottom: 1.5em;
 }
 .listing-cards{
-    display: flex;
-    justify-content: space-around;
+    cursor: pointer;
+    width: 10vw;
+    min-width: 162px;
+    border-left: 1px #ededee solid;
+    border-right: 1px #ededee solid;
+    border-bottom: 5px #006aff solid;
     
 }
-.listing-info{
+.price-status{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-    width: 140px;
-    border: 1px #ededee solid;
-    border-bottom: 4px #006aff solid;
-}
-.price-circle{
-    display: flex;
-    felx-direction: row;
-    align-items:  center;
+    align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: .5em;
 }
-.red-circle{
-    background-color: #ff5a50;
+.card-img{
+    width: 10vw;
+    min-width: 162px;
+    height: 14vh;
+}
+.card-status-yellow{
+    
+    background-color: #ffd237;
     width: 10px;
     height: 10px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
-.listing-card-price{
-    font-size: 1.1rem;
+.card-status{
+     background-color: #ff5a50;
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
 }
-.bed-bath-listing{
-    margin-top: .5em;
-    font-size: .85rem;
-    font-weight: 600;
+.card-desc{
     display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: .5em;
+    font-size: .9rem;
+    font-weight:bold;
 }
-.bedrooms,.bathrooms{
+.card-bed,.card-bath{
     border-right: 1px #2a2a33 solid;
     padding-right: .4em;
 }
-.bathrooms,.sqft{
-    padding-left: .4em;
-}
-.sqft{
-    
-    flex-direction: center; text-overflow: ellipsis;
-
-  /* Needed to make it work */
-  overflow: hidden;
-  white-space: nowrap;
-}
 .city{
-    margin-top: .5em;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: .2em;
+    margin-bottom: .5em;
     font-size: 1rem;
+    font-weight: bold;
+}
+.home-listing-flexed{
+    display: flex;
+    justify-content: space-between;
 }
