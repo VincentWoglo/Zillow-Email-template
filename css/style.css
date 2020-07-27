@@ -85,7 +85,7 @@ main{
     cursor: pointer;
 }
 /*popular homes*/
-.popular-homes-title{
+.popular-homes-title,.recently-sold-title{
     text-align: center;
     font-size: 1.29rem;
     margin-bottom: 1.5em;
@@ -151,4 +151,38 @@ main{
 .home-listing-flexed{
     display: flex;
     justify-content: space-between;
+}
+.view-more-homes{
+    color: #006aff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.view-more-homes a{
+    text-decoration: none;
+    color: #006aff;
+}
+/*footer*/
+.footer{
+    padding: 30px;
+    border-top: 1px #ededee solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #75757a;
+}
+.footer-bottom{
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-top: 1.5em;
+}
+.privacy-notice,.unsubscribe-from-this-email{
+    border-right: 1px #75757a solid;
+    padding-right: .7em;
 }
