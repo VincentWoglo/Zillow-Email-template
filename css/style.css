@@ -49,6 +49,12 @@ main{
     background-color: #006aff;
     color: #fff;
 }
+.homes-sold-desc,.homes-for-sale-desc,.forecasted-value-desc,.typical-value-desc{
+    margin-top: .5em;
+}
+#arrow-down{
+    margin-right: .5em;
+}
 .home-center{
     margin: auto;
     width: 80%;
