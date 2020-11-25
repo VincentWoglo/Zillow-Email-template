@@ -157,6 +157,8 @@ main{
 .home-listing-flexed{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 .view-more-homes{
     color: #006aff;
